@@ -1,3 +1,9 @@
 1. Path - C:\GIT_PPT>
 2. Initialize GIT - git init 
-3. 
+3. Adding the files for staging (Prior to commit stage) - git add . 
+(We have readied everything for commit)
+4. Commiting - git commit -m "This is the version1"
+(Now you can verify the message on execution that all the files are added into git. 
+5. Change the content of the HTML file. Some comments would do. 
+6. Now check the status of the files (complete folder will be covered) - git status. this will tell the changes which all have happened after the last commit.  
+7. 
