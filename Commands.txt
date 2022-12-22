@@ -12,6 +12,30 @@
 (This will immediately show which files have been changed and commited to the GIT) 
 9. C:\GIT_PPT>git log --oneline
 (A oneline update on all the commits with comments will come) 
+10. Check in the GITHub - https://github.com/shriramkv 
+(Your username/email id)
+To check the existing username and email or to validate:
+C:\GIT_PPT>git config --global user.name
+shriramkv
+
+C:\GIT_PPT>git config --global user.email
+shriramkv@gmail.com
+
+
+11. GIT PUSH STEP  (I created a new repo inside the github/shriramkv)
+…or create a new repository on the command line
+echo "# Demo_Git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shriramkv/Demo_Git.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/shriramkv/Demo_Git.git
+git branch -M main
+git push -u origin main
+
 
 Log: 
 C:\GIT_PPT>dir
