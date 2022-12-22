@@ -6,4 +6,119 @@
 (Now you can verify the message on execution that all the files are added into git. 
 5. Change the content of the HTML file. Some comments would do. 
 6. Now check the status of the files (complete folder will be covered) - git status. this will tell the changes which all have happened after the last commit.  
-7. 
+7.  Adding the files for staging (Prior to commit stage) - git add . 
+(We have readied everything for commit)
+8. Commiting - git commit -m "This is the version2"
+(This will immediately show which files have been changed and commited to the GIT) 
+9. C:\GIT_PPT>git log --oneline
+(A oneline update on all the commits with comments will come) 
+
+Log: 
+C:\GIT_PPT>dir
+ Volume in drive C is OSDisk
+ Volume Serial Number is 0874-3DB0
+
+ Directory of C:\GIT_PPT
+
+12/21/2022  08:36 PM    <DIR>          .
+12/21/2022  08:33 PM               191 1.html
+12/21/2022  08:36 PM    <DIR>          Git Examples
+12/21/2022  02:34 PM         1,516,260 Git-Basics.pdf
+12/21/2022  02:33 PM         4,400,910 Git_Basics.pptx
+               3 File(s)      5,917,361 bytes
+               2 Dir(s)  25,065,123,840 bytes free
+
+C:\GIT_PPT>git init
+Initialized empty Git repository in C:/GIT_PPT/.git/
+
+C:\GIT_PPT>git add .
+
+C:\GIT_PPT>git commit -m "This is the version1"
+[master (root-commit) d5e62be] This is the version1
+ 4 files changed, 12 insertions(+)
+ create mode 100644 1.html
+ create mode 100644 Commands.txt
+ create mode 100644 Git-Basics.pdf
+ create mode 100644 Git_Basics.pptx
+
+C:\GIT_PPT>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   1.html
+        modified:   Commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\GIT_PPT> git add .
+
+C:\GIT_PPT>git commit -m "This is the version2"
+[master 645c4b5] This is the version2
+ 2 files changed, 8 insertions(+), 2 deletions(-)
+
+C:\GIT_PPT>git log --oneline
+645c4b5 (HEAD -> master) This is the version2
+d5e62be This is the version1
+
+C:\GIT_PPT>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
